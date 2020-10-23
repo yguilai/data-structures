@@ -1,7 +1,7 @@
 package linked_list
 
 import (
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/utils"
 	"fmt"
 )
 

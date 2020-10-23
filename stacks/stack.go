@@ -1,6 +1,6 @@
 package stacks
 
-import "data-structures/utils"
+import "github.com/yguilai/data-structures/utils"
 
 type Stack interface {
 	Push(val utils.Equality)

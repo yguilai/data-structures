@@ -1,7 +1,7 @@
 package binary_search_tree
 
 import (
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/utils"
 )
 
 type BST struct {

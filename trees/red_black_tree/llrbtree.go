@@ -1,7 +1,7 @@
 package red_black_tree
 
 import (
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/utils"
 )
 
 // 红黑树性质

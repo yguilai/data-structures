@@ -1,6 +1,6 @@
 package queue
 
-import "data-structures/utils"
+import "github.com/yguilai/data-structures/utils"
 
 type Queue interface {
 	Enqueue(e utils.Equality)

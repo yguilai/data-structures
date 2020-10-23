@@ -1,7 +1,7 @@
 package array_list
 
 import (
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/utils"
 )
 
 type ArrayList struct {

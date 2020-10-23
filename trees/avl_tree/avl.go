@@ -1,7 +1,7 @@
 package avl_tree
 
 import (
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/utils"
 	"math"
 )
 

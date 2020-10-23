@@ -1,6 +1,6 @@
 package lists
 
-import "data-structures/utils"
+import "github.com/yguilai/data-structures/utils"
 
 type List interface {
 	Add(e utils.Equality)

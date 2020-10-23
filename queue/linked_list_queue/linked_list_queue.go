@@ -1,8 +1,8 @@
 package linked_list_queue
 
 import (
-	"data-structures/lists/linked_list"
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/lists/linked_list"
+	"github.com/yguilai/data-structures/utils"
 )
 
 type ArrayQueue struct {

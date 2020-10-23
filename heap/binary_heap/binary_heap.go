@@ -1,7 +1,7 @@
 package binary_heap
 
 import (
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/utils"
 )
 
 type MaxHeap struct {

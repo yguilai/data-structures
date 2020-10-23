@@ -1,8 +1,8 @@
 package array_stack
 
 import (
-	"data-structures/lists/array_list"
-	"data-structures/utils"
+	"github.com/yguilai/data-structures/lists/array_list"
+	"github.com/yguilai/data-structures/utils"
 )
 
 type ArrayStack struct {
