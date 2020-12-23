@@ -64,7 +64,7 @@ func (t *HashTable) Put(key Hashabler, val interface{}) error {
 		t.size++
 	}
 
-	if t.size > t.upper*primes[t.primeIndex] && t.primeIndex+1 <= len(primes) {
+	if t.size > t.upper*primes[t.primeIndex] && t.primeIndex+1 < len(primes) {
 		t.primeIndex++
 		return t.resize()
 	}
