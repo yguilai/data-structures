@@ -3,6 +3,7 @@ package avl_tree
 import (
 	"github.com/yguilai/data-structures/utils"
 	"math"
+	"reflect"
 )
 
 type AVL struct {
@@ -217,6 +218,7 @@ func getHeight(n *Node) float64 {
 
 // getBalanceFactor 计算节点平衡因子
 func getBalanceFactor(n *Node) float64 {
+	reflect.DeepEqual(nil, nil)
 	if n == nil {
 		return 0
 	}
